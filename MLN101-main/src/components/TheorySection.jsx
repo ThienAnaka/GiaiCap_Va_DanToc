@@ -1,22 +1,27 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Shield, Globe, Layers } from 'lucide-react';
+import { Users, Scale, Factory, Swords } from 'lucide-react';
 
 const theories = [
   {
-    title: "Tính Khách Quan",
-    icon: <Shield className="w-8 h-8 text-soviet-red" />,
-    description: "Mối liên hệ là thuộc tính vốn có của thế giới vật chất, không phải là sản phẩm của tư duy. Nó tồn tại độc lập với ý thức của chúng ta."
+    title: "Định Nghĩa",
+    icon: <Users className="w-8 h-8 text-soviet-red" />,
+    description: "Theo V. I. Lênin, giai cấp là những tập đoàn người lớn khác nhau về vị trí trong hệ thống sản xuất xã hội, quan hệ với tư liệu sản xuất, vai trò trong tổ chức lao động và cách hưởng thụ của cải."
   },
   {
-    title: "Tính Phổ Biến",
-    icon: <Globe className="w-8 h-8 text-soviet-red" />,
-    description: "Không có đối tượng hay hiện tượng nào là tuyệt đối. Mọi thứ đều là một phần của hệ thống lớn hơn, kết nối với mọi thứ khác ở một mức độ nào đó."
+    title: "Đặc Trưng",
+    icon: <Scale className="w-8 h-8 text-soviet-red" />,
+    description: "Giai cấp được nhận diện qua quan hệ với tư liệu sản xuất, vai trò trong tổ chức lao động, cách thức phân phối của cải và địa vị xã hội."
   },
   {
-    title: "Tính Đa Dạng",
-    icon: <Layers className="w-8 h-8 text-soviet-red" />,
-    description: "Các mối liên hệ không đồng nhất. Chúng thay đổi về cường độ, tính chất và chiều sâu—từ tiếp xúc vật lý trực tiếp đến các liên kết nhân quả tinh vi."
+    title: "Nguồn Gốc",
+    icon: <Factory className="w-8 h-8 text-soviet-red" />,
+    description: "Giai cấp xuất hiện khi có tư hữu về tư liệu sản xuất, phân công lao động xã hội và sự chênh lệch giàu nghèo; từ đó xã hội phân hóa thành giai cấp thống trị và bị trị."
+  },
+  {
+    title: "Đấu Tranh Giai Cấp",
+    icon: <Swords className="w-8 h-8 text-soviet-red" />,
+    description: "Theo Marx, lịch sử xã hội loài người là lịch sử đấu tranh giai cấp; lợi ích đối lập giữa các giai cấp thường dẫn tới xung đột kinh tế và chính trị."
   }
 ];
 
@@ -30,9 +35,9 @@ const TheorySection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 mb-6 tracking-tight">Mối Liên Hệ Phổ Biến</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 mb-6 tracking-tight">Giai Cấp Là Gì?</h2>
           <p className="text-zinc-600 max-w-2xl mx-auto text-lg leading-relaxed">
-            Chủ nghĩa duy vật biện chứng khẳng định rằng thế giới không phải là một tập hợp các sự vật sẵn có, mà là một tập hợp các quá trình không ngừng vận động.
+            Giai cấp là phạm trù trung tâm để nhận diện phân hóa xã hội và các quan hệ lợi ích trong phương thức sản xuất.
           </p>
         </motion.div>
 

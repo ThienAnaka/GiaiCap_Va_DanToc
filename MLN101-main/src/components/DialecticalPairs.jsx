@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const pairs = [
-  { title: "Cái riêng – Cái chung", desc: "Sự thể hiện duy nhất vs. quy luật phổ quát. Mỗi giọt nước là duy nhất, nhưng đều tuân theo các quy luật thủy động lực học phổ biến." },
-  { title: "Bản chất – Hiện tượng", desc: "Thực tại nội tại ẩn giấu vs. biểu hiện bên ngoài. Sự tìm tòi khoa học đi từ hiện tượng đến bản chất." },
-  { title: "Nội dung – Hình thức", desc: "Các yếu tố bên trong vs. sự tổ chức bên ngoài. Nội dung quyết định hình thức, và hình thức tác động ngược lại nội dung." },
-  { title: "Nguyên nhân – Kết quả", desc: "Cái tạo ra vs. cái được tạo ra. Trong mạng lưới các mối quan hệ, nguyên nhân trở thành kết quả và kết quả trở thành nguyên nhân." },
-  { title: "Khả năng – Hiện thực", desc: "Các xu hướng tiềm tàng vs. trạng thái đã được hiện thực hóa. Lịch sử là quá trình khả năng trở thành hiện thực." },
-  { title: "Tất nhiên – Ngẫu nhiên", desc: "Quy luật không thể tránh khỏi vs. sự biến đổi tình cờ. Cái tất nhiên vạch đường đi cho mình thông qua vô số cái ngẫu nhiên." }
+  { title: "Giai cấp", desc: "Những tập đoàn người lớn khác nhau về vị trí trong sản xuất xã hội, quan hệ với tư liệu sản xuất và cách hưởng thụ của cải." },
+  { title: "Dân tộc", desc: "Cộng đồng người ổn định có lãnh thổ, ngôn ngữ, đời sống kinh tế, văn hóa và tâm lý chung." },
+  { title: "Thống nhất", desc: "Giai cấp và dân tộc cùng tồn tại trong một cộng đồng xã hội và cùng chịu tác động của lịch sử." },
+  { title: "Mâu thuẫn", desc: "Trong một số bối cảnh, lợi ích giai cấp và lợi ích dân tộc có thể khác nhau và cần được xử lý đúng lúc." },
+  { title: "Giải phóng", desc: "Cách mạng Việt Nam kết hợp giải phóng dân tộc với giải phóng giai cấp để đi tới mục tiêu chung." },
+  { title: "Ý nghĩa", desc: "Nhận thức đúng giúp xây dựng chính sách hợp lý và củng cố đoàn kết dân tộc." }
 ];
 
 const DialecticalPairs = () => {
@@ -20,8 +20,8 @@ const DialecticalPairs = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 mb-6 tracking-tight">Các Cặp Phạm Trù Biện Chứng</h2>
-          <p className="text-zinc-600 max-w-2xl mx-auto">Các cặp phạm trù cơ bản mà thông qua đó mối liên hệ phổ biến được thể hiện và hiểu rõ.</p>
+          <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 mb-6 tracking-tight">Các Ý Chính Của Bài Học</h2>
+          <p className="text-zinc-600 max-w-2xl mx-auto">Các khái niệm trọng tâm giúp hệ thống hóa nội dung giai cấp và dân tộc.</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

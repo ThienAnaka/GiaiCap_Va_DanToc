@@ -4,16 +4,16 @@ import { CircleCheck } from 'lucide-react';
 
 const meanings = [
   {
-    title: "Quan Điểm Toàn Diện",
-    desc: "Khi xem xét sự vật, cần đặt nó trong mối liên hệ với các sự vật khác và trong các mối liên hệ nội tại của chính nó.",
+    title: "Hiểu cấu trúc xã hội",
+    desc: "Nhận ra rằng trong mỗi xã hội luôn có phân hóa giai cấp và những cộng đồng dân tộc với vị trí, lợi ích khác nhau.",
   },
   {
-    title: "Tránh Quan Điểm Phiến Diện",
-    desc: "Không được chỉ nhìn thấy một mặt, một mối liên hệ mà bỏ qua các mặt, các mối liên hệ khác.",
+    title: "Xây dựng chính sách hợp lý",
+    desc: "Khi hoạch định chính sách phải kết hợp lợi ích giai cấp, lợi ích dân tộc và mục tiêu phát triển lâu dài.",
   },
   {
-    title: "Tránh Quan Điểm Chiết Trung",
-    desc: "Cần phân biệt được vị trí, vai trò của từng mối liên hệ, không được cào bằng hay kết hợp một cách vô nguyên tắc.",
+    title: "Tăng cường đoàn kết dân tộc",
+    desc: "Biết đặt lợi ích dân tộc lên trên trong những thời điểm cần thiết để tránh chia rẽ, xung đột cực đoan.",
   },
 ];
 
@@ -29,11 +29,11 @@ const MethodologicalMeaning = () => {
         >
           <div className="w-full md:w-1/2">
             <h2 className="text-4xl md:text-6xl font-bold text-soviet-red mb-8 uppercase tracking-tighter">
-              Ý Nghĩa Phương Pháp Luận
+              Ý Nghĩa
             </h2>
             <div className="h-2 w-24 bg-soviet-gold mb-8 shadow-sm" />
             <p className="text-xl text-zinc-600 leading-relaxed font-medium">
-              Nguyên lý về mối liên hệ phổ biến không chỉ là lý thuyết mà còn là kim chỉ nam cho tư duy khoa học và hoạt động thực tiễn.
+              Từ nội dung giai cấp và dân tộc có thể rút ra những định hướng quan trọng cho nhận thức và hành động thực tiễn.
             </p>
           </div>
           

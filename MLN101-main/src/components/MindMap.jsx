@@ -2,22 +2,22 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const nodes = [
-  { id: 'nature', label: 'Tự nhiên', x: 50, y: 50, color: '#da251d' },
-  { id: 'labor', label: 'Lao động', x: 30, y: 30, color: '#da251d' },
-  { id: 'society', label: 'Xã hội', x: 70, y: 30, color: '#da251d' },
-  { id: 'thought', label: 'Tư duy', x: 50, y: 20, color: '#f59e0b' },
-  { id: 'science', label: 'Khoa học', x: 30, y: 70, color: '#f59e0b' },
-  { id: 'history', label: 'Lịch sử', x: 70, y: 70, color: '#f59e0b' },
+  { id: 'class', label: 'Giai cấp', x: 25, y: 50, color: '#da251d' },
+  { id: 'nation', label: 'Dân tộc', x: 75, y: 50, color: '#da251d' },
+  { id: 'definition', label: 'Định nghĩa', x: 50, y: 20, color: '#f59e0b' },
+  { id: 'origin', label: 'Nguồn gốc', x: 15, y: 78, color: '#f59e0b' },
+  { id: 'relation', label: 'Quan hệ', x: 50, y: 78, color: '#f59e0b' },
+  { id: 'meaning', label: 'Ý nghĩa', x: 85, y: 78, color: '#f59e0b' },
 ];
 
 const links = [
-  { source: 'nature', target: 'labor' },
-  { source: 'nature', target: 'society' },
-  { source: 'labor', target: 'society' },
-  { source: 'thought', target: 'science' },
-  { source: 'science', target: 'nature' },
-  { source: 'history', target: 'society' },
-  { source: 'history', target: 'labor' },
+  { source: 'definition', target: 'class' },
+  { source: 'definition', target: 'nation' },
+  { source: 'origin', target: 'class' },
+  { source: 'origin', target: 'nation' },
+  { source: 'relation', target: 'class' },
+  { source: 'relation', target: 'nation' },
+  { source: 'meaning', target: 'relation' },
 ];
 
 const MindMap = () => {
@@ -35,9 +35,9 @@ const MindMap = () => {
   return (
     <section className="py-24 px-6 bg-soviet-offwhite overflow-hidden">
       <div className="max-w-7xl mx-auto text-center mb-16">
-        <h2 className="text-4xl md:text-6xl font-bold text-soviet-red mb-6 tracking-tight uppercase">Bản Đồ Liên Hệ</h2>
+        <h2 className="text-4xl md:text-6xl font-bold text-soviet-red mb-6 tracking-tight uppercase">Sơ Đồ Tư Duy</h2>
         <div className="h-2 w-24 bg-soviet-gold mx-auto mb-8 rounded-full shadow-sm" />
-        <p className="text-zinc-500 text-sm font-bold uppercase tracking-[0.3em]">Di chuột qua các nút để thấy các liên kết biện chứng</p>
+        <p className="text-zinc-500 text-sm font-bold uppercase tracking-[0.3em]">Di chuột qua các nút để thấy các mối liên hệ chính của bài học</p>
       </div>
 
       <motion.div 
