@@ -45,56 +45,18 @@ const VideoSection = () => {
           </div>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="bg-white rounded-lg shadow-2xl p-8 border-4 border-soviet-red"
-        >
-          <div className="space-y-6">
-            <div className="text-center pb-6 border-b-2 border-soviet-gold">
-              <p className="text-lg font-black text-soviet-red mb-2">Nội dung trọng tâm</p>
-              <p className="text-sm text-zinc-500">Tóm lược nhanh các phần chính của bài học giai cấp và dân tộc</p>
-            </div>
-            
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-              className="bg-gradient-to-br from-soviet-offwhite to-white rounded-lg p-8 border-2 border-soviet-gold"
+        <div className="bg-white rounded-lg shadow-2xl p-8 border-4 border-soviet-red">
+          <div className="bg-gradient-to-br from-soviet-red via-soviet-red to-soviet-gold rounded-lg shadow-2xl overflow-hidden border-4 border-soviet-gold aspect-video">
+            <video 
+              controls 
+              className="w-full h-full object-cover"
+              poster="/image/video-poster.jpg"
             >
-              <p className="text-lg font-black text-soviet-red mb-4">I. Giai cấp</p>
-              <p className="text-base font-bold text-zinc-700 leading-relaxed">
-                Định nghĩa theo Lênin, đặc trưng qua tư liệu sản xuất, nguồn gốc từ tư hữu và đấu tranh giai cấp.
-              </p>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.8 }}
-              className="bg-white rounded-lg p-8 border-2 border-soviet-red"
-            >
-              <div className="space-y-3">
-                <p className="font-black text-zinc-700 text-lg mb-4">II. Dân tộc và quan hệ với giai cấp:</p>
-                <ul className="space-y-2 text-zinc-600">
-                  <li className="flex items-start gap-3">
-                    <span className="text-soviet-red font-black mt-1">•</span>
-                    <span><strong>Dân tộc</strong> - Cộng đồng ổn định với lãnh thổ, ngôn ngữ, đời sống kinh tế, văn hóa và tâm lý</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-soviet-red font-black mt-1">•</span>
-                    <span><strong>Quan hệ giai cấp - dân tộc</strong> - Vừa thống nhất vừa mâu thuẫn, tùy hoàn cảnh lịch sử</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-soviet-red font-black mt-1">•</span>
-                    <span><strong>Cách mạng Việt Nam</strong> - Kết hợp giải phóng dân tộc với giải phóng giai cấp</span>
-                  </li>
-                </ul>
-              </div>
-            </motion.div>
+              <source src="/image/video AI.mp4" type="video/mp4" />
+              Trình duyệt của bạn không hỗ trợ video HTML5.
+            </video>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
