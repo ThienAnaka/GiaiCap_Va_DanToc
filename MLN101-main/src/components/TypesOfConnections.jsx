@@ -1,37 +1,27 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link2, Repeat, Zap, Shuffle, ArrowRight, Waypoints } from 'lucide-react';
+import { MapPinned, Languages, BadgeCheck, PartyPopper } from 'lucide-react';
 
 const connections = [
   {
-    icon: Link2,
-    title: "Liên Hệ Bên Trong",
-    desc: "Mối liên hệ giữa các yếu tố cấu thành nên bản chất của sự vật. Ví dụ: mối quan hệ giữa lực lượng sản xuất và quan hệ sản xuất.",
+    icon: MapPinned,
+    title: "Định Nghĩa Dân Tộc",
+    desc: "Dân tộc là một cộng đồng người ổn định, có chung lãnh thổ, ngôn ngữ, đời sống kinh tế, văn hóa và tâm lý."
   },
   {
-    icon: Repeat,
-    title: "Liên Hệ Bên Ngoài",
-    desc: "Mối liên hệ giữa sự vật này với sự vật khác. Ví dụ: sự tương tác giữa các loài trong hệ sinh thái.",
+    icon: Languages,
+    title: "Hai Nghĩa Của Dân Tộc",
+    desc: "Nghĩa hẹp là cộng đồng tộc người như Kinh, Tày, Thái, H’Mông; nghĩa rộng là một quốc gia hoàn chỉnh gồm nhiều cộng đồng dân tộc."
   },
   {
-    icon: Zap,
-    title: "Liên Hệ Tất Yếu",
-    desc: "Mối liên hệ xuất phát từ bản chất của sự vật, thể hiện quy luật. Ví dụ: nước nóng bay hơi khi đun sôi.",
+    icon: BadgeCheck,
+    title: "Đặc Trưng Của Dân Tộc",
+    desc: "Dân tộc có tính ổn định lâu dài, ý thức tự giác, tinh thần đoàn kết và chung lịch sử phát triển."
   },
   {
-    icon: Shuffle,
-    title: "Liên Hệ Ngẫu Nhiên",
-    desc: "Mối liên hệ không xuất phát từ bản chất, có thể có hoặc không. Ví dụ: gặp bạn cũ trên đường.",
-  },
-  {
-    icon: ArrowRight,
-    title: "Liên Hệ Trực Tiếp",
-    desc: "Sự vật tác động lẫn nhau không qua trung gian. Ví dụ: lửa đốt cháy giấy trực tiếp.",
-  },
-  {
-    icon: Waypoints,
-    title: "Liên Hệ Gián Tiếp",
-    desc: "Sự vật tác động qua các trung gian khác. Ví dụ: ánh sáng mặt trời nuôi dưỡng cây qua quá trình quang hợp.",
+    icon: PartyPopper,
+    title: "Vai Trò Của Dân Tộc",
+    desc: "Dân tộc là nền tảng của nhà nước, tạo nên bản sắc văn hóa và là động lực trong bảo vệ, xây dựng đất nước."
   },
 ];
 
@@ -46,10 +36,10 @@ const TypesOfConnections = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold text-soviet-red mb-6">
-            Các Loại Liên Hệ
+            Dân Tộc Là Gì?
           </h2>
           <p className="text-lg text-zinc-500 max-w-2xl mx-auto">
-            Nhấp vào từng loại để khám phá các hình thức liên kết khác nhau định hình thực tại.
+            Phần này hệ thống hóa định nghĩa, hai nghĩa, đặc trưng và vai trò của dân tộc trong triết học Mác - Lênin.
           </p>
         </motion.div>
 

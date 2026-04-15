@@ -5,18 +5,18 @@ import { Globe, Network, Zap } from 'lucide-react';
 const principles = [
   {
     icon: Globe,
-    title: "Vật Chất Thống Nhất",
-    description: "Thế giới là một chỉnh thể vật chất duy nhất, trong đó mọi hiện tượng đều kết nối với nhau.",
+    title: "Giai Cấp",
+    description: "Nhận diện phân hóa xã hội dựa trên vị trí trong sản xuất, tư liệu sản xuất và cách phân phối của cải.",
   },
   {
     icon: Network,
-    title: "Liên Hệ Phổ Biến",
-    description: "Không có gì tồn tại độc lập. Mọi sự vật, hiện tượng đều có mối liên hệ với nhau.",
+    title: "Dân Tộc",
+    description: "Hiểu dân tộc như một cộng đồng ổn định, có lãnh thổ, ngôn ngữ, kinh tế, văn hóa và tâm lý chung.",
   },
   {
     icon: Zap,
-    title: "Vận Động & Phát Triển",
-    description: "Mọi thứ luôn trong trạng thái vận động, biến đổi và phát triển không ngừng.",
+    title: "Quan Hệ",
+    description: "Nắm được mối quan hệ vừa thống nhất vừa mâu thuẫn giữa giai cấp và dân tộc trong từng hoàn cảnh.",
   },
 ];
 
@@ -31,10 +31,10 @@ const TheoryFoundation = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold text-soviet-red mb-6">
-            Cơ Sở Lý Thuyết
+            Cơ Sở Lý Luận
           </h2>
           <p className="text-lg text-zinc-600 max-w-2xl mx-auto font-medium">
-            Ba nguyên lý cơ bản của chủ nghĩa duy vật biện chứng về thế giới vật chất.
+            Ba ý chính để hiểu đúng nội dung giai cấp và dân tộc trong triết học Mác - Lênin.
           </p>
         </motion.div>
 

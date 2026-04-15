@@ -4,27 +4,26 @@ import { Users, ListOrdered, BookOpen, Cpu, MessageSquare, PenTool, Terminal, Bo
 
 const PresentationOverview = () => {
   const members = [
-    { name: "Lê Nguyễn Xuân Khôi", id: "SE183384" },
-    { name: "Thân Trần Quốc Huy", id: "SE183533" },
-    { name: "Lại Bảo Khánh", id: "SE183944" },
-    { name: "Võ Thanh Tòng", id: "SE182169" },
-    { name: "Trần Thanh Hoài", id: "SE184132" },
+    { name: "Nguyễn Đức Thiên Ân", id: "SE182633" },
+    { name: "Nguyễn Phi Khanh", id: "SE183527" },
+    { name: "Hạ Cao Thanh Trúc", id: "SE180264" },
+    { name: "Trần Mạnh Tú", id: "SE181566" },
   ];
 
   const outline = [
-    { title: "Nguyên lý về mối liên hệ phổ biến", desc: "Nền tảng lý luận về sự liên kết giữa các sự vật, hiện tượng." },
-    { title: "Các loại hình liên hệ phổ biến", desc: "Phân loại các mối liên hệ: bên trong - bên ngoài, cơ bản - không cơ bản." },
-    { title: "Các phạm trù biện chứng", desc: "Đi sâu vào cặp phạm trù Nguyên nhân - Kết quả và tính chuyển hóa." },
-    { title: "Liên hệ thực tiễn & Ý nghĩa", desc: "Vận dụng vào biến đổi khí hậu, hệ sinh thái và bài học phương pháp luận." },
-    { title: "Tương tác & Hệ thống hóa", desc: "Thử thách nhân quả và củng cố kiến thức qua bản đồ tư duy." },
+    { title: "Giai cấp là gì?", desc: "Định nghĩa của Lênin, đặc trưng, nguồn gốc và đấu tranh giai cấp." },
+    { title: "Dân tộc là gì?", desc: "Định nghĩa, hai nghĩa của dân tộc, đặc trưng và vai trò." },
+    { title: "Quan hệ giữa giai cấp và dân tộc", desc: "Mối quan hệ vừa thống nhất vừa mâu thuẫn trong xã hội." },
+    { title: "Trong cách mạng Việt Nam", desc: "Kết hợp giải phóng dân tộc với giải phóng giai cấp theo Hồ Chí Minh." },
+    { title: "Ý nghĩa và tóm tắt", desc: "Rút ra ý nghĩa nhận thức, thực tiễn và phần tóm tắt trọng tâm." },
   ];
 
   const tools = [
-    { name: "NotebookLM", icon: <Book className="w-6 h-6" />, color: "bg-blue-500", desc: "Tổng hợp Nội Dung và Làm Video Tổng Hợp" },
-    { name: "ChatGPT", icon: <MessageSquare className="w-6 h-6" />, color: "bg-emerald-500", desc: "Tạo Promt để VibeCoding Web" },
-    { name: "Figma AI", icon: <PenTool className="w-6 h-6" />, color: "bg-purple-500", desc: "Tạo UI" },
-    { name: "Cursor AI", icon: <Terminal className="w-6 h-6" />, color: "bg-sky-500", desc: "VibeCoding ra web từ UI của FigmaAI và Promt của ChatGPT" },
-    { name: "MyMap AI", icon: <Cpu className="w-6 h-6" />, color: "bg-orange-500", desc: "Dùng để tạo MindMap từ nội dung đã tổng hợp" },
+    { name: "Nội dung", icon: <Book className="w-6 h-6" />, color: "bg-blue-500", desc: "Tổng hợp theo đúng dàn ý giai cấp và dân tộc" },
+    { name: "Diễn giải", icon: <MessageSquare className="w-6 h-6" />, color: "bg-emerald-500", desc: "Biến ý chính thành nội dung dễ học, dễ nhớ" },
+    { name: "Thiết kế", icon: <PenTool className="w-6 h-6" />, color: "bg-purple-500", desc: "Trình bày lại nội dung thành giao diện thuyết trình" },
+    { name: "Biên tập", icon: <Terminal className="w-6 h-6" />, color: "bg-sky-500", desc: "Chỉnh sửa các section và điều hướng trong web" },
+    { name: "Hệ thống hóa", icon: <Cpu className="w-6 h-6" />, color: "bg-orange-500", desc: "Tạo sơ đồ tư duy và mạch học tập liên kết" },
   ];
 
   return (
@@ -44,10 +43,10 @@ const PresentationOverview = () => {
             Môn học: Triết học Mác – Lênin
           </div>
           <h2 className="text-5xl md:text-7xl font-black mb-6 uppercase tracking-tighter italic text-soviet-red">
-            Tổng quan <span className="text-zinc-800">Thuyết trình</span>
+            Tổng quan <span className="text-zinc-800">Bài học</span>
           </h2>
           <p className="text-xl font-medium text-zinc-500 mb-8">
-            Giảng viên hướng dẫn: <span className="text-zinc-900 font-bold underline decoration-soviet-red underline-offset-4">Tô Hải Anh</span>
+            Chủ đề: <span className="text-zinc-900 font-bold underline decoration-soviet-red underline-offset-4">Giai cấp và dân tộc</span>
           </p>
           <div className="w-24 h-2 bg-soviet-red mx-auto mb-8" />
         </motion.div>
@@ -59,8 +58,8 @@ const PresentationOverview = () => {
             animate={{ opacity: 1, x: 0 }}
             className="space-y-8"
           >
-            <h3 className="text-2xl font-bold flex items-center gap-4 uppercase tracking-widest text-soviet-red">
-              <Users className="w-8 h-8" /> Đội ngũ thực hiện
+              <h3 className="text-2xl font-bold flex items-center gap-4 uppercase tracking-widest text-soviet-red">
+              <Users className="w-8 h-8" /> Thành viên thực hiện
             </h3>
             <div className="space-y-4">
               {members.map((member) => (
@@ -81,8 +80,8 @@ const PresentationOverview = () => {
             animate={{ opacity: 1, x: 0 }}
             className="space-y-8"
           >
-            <h3 className="text-2xl font-bold flex items-center gap-4 uppercase tracking-widest text-soviet-red">
-              <ListOrdered className="w-8 h-8" /> Nội dung thuyết trình
+              <h3 className="text-2xl font-bold flex items-center gap-4 uppercase tracking-widest text-soviet-red">
+              <ListOrdered className="w-8 h-8" /> Nội dung bài học
             </h3>
             <div className="space-y-6">
               {outline.map((item, index) => (
@@ -114,7 +113,7 @@ const PresentationOverview = () => {
           </div>
           
           <h3 className="text-2xl font-bold text-center uppercase tracking-widest text-zinc-400 mb-12">
-            Phụ lục: Công cụ hỗ trợ
+            Phụ lục: Cách triển khai nội dung
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">

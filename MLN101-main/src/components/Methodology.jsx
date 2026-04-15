@@ -6,15 +6,15 @@ const Methodology = () => {
   const points = [
     {
       title: "Quan điểm toàn diện",
-      desc: "Phân tích các hiện tượng không phải là các mảnh vụn biệt lập, mà là các phần không thể tách rời của một chỉnh thể thống nhất."
+      desc: "Khi xem xét giai cấp và dân tộc cần đặt chúng trong toàn bộ bối cảnh xã hội, lịch sử và lợi ích thực tế."
     },
     {
       title: "Phân tích Lịch sử – Cụ thể",
-      desc: "Nghiên cứu các đối tượng trong bối cảnh cụ thể của chúng, theo dõi nguồn gốc, sự phát triển và sự chuyển hóa cuối cùng của chúng."
+      desc: "Mỗi vấn đề dân tộc hay giai cấp đều phải được phân tích trong điều kiện lịch sử, không gian và thời gian cụ thể."
     },
     {
       title: "Mắt xích quyết định",
-      desc: "Xác định mối liên hệ chủ chốt trong mạng lưới quyết định sự vận động của toàn bộ hệ thống."
+      desc: "Xác định lợi ích, lực lượng và thời điểm then chốt để xử lý đúng quan hệ giữa giai cấp và dân tộc."
     }
   ];
 
@@ -26,7 +26,7 @@ const Methodology = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 mb-8 tracking-tight">Phương Pháp Luận</h2>
             <div className="h-2 w-20 bg-soviet-gold mb-8 shadow-sm" />
             <p className="text-zinc-600 mb-8 leading-relaxed text-lg">
-              Để vận dụng nguyên lý về mối liên hệ phổ biến, người ta phải áp dụng một khung nhận thức nghiêm ngặt, vượt ra ngoài những biểu hiện bề ngoài.
+              Để vận dụng bài học giai cấp và dân tộc, cần có cách nhìn toàn diện, lịch sử - cụ thể và biết xác định trọng tâm hành động.
             </p>
           </div>
           

@@ -16,7 +16,7 @@ const Navbar = () => {
     { name: 'Tổng quan', path: '/overview' },
     { name: 'Lý thuyết', id: 'theory', path: '/#theory' },
     { name: 'Video', path: '/video' },
-    { name: 'Sơ đồ', path: '/mindmap-detail' },
+    { name: 'Luật chơi', path: '/mindmap-detail' },
     { name: 'Trò chơi', path: '/game' }
   ];
 
@@ -33,7 +33,7 @@ const Navbar = () => {
           to="/" 
           className={`font-black tracking-[0.3em] uppercase text-sm transition-all duration-500 ${scrolled ? 'text-soviet-red scale-110' : 'text-zinc-800'}`}
         >
-          Mạng Lưới <span className="text-soviet-orange">Sự Sống</span>
+          Giai Cấp <span className="text-soviet-orange">&amp; Dân Tộc</span>
         </Link>
         
         <div className="hidden md:flex gap-10">
